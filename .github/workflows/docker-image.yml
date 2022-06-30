@@ -40,6 +40,7 @@ jobs:
           CF_ENRICHERS: "jira, git"
  
           # use github token
+          #
           CF_GITHUB_TOKEN: ${{ secrets.CF_GITHUB_TOKEN }}    
           
           # use jira integration - jira is the name of the integration created in codefresh argo platform.
